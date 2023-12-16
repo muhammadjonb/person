@@ -1,0 +1,36 @@
+.cards_photos{
+    display: flex;
+    padding: 40px 0;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    .card_photos{
+        border: 1px solid #fff;
+        background: #ffffff4b;
+        align-items: flex-start;
+        flex-direction: column;
+        border-radius: 20px;
+        display: flex;        
+        padding: 20px;
+        width: 320px;
+        gap: 14px;
+        h3{
+            font-size: 24px;
+            line-height: 32px;
+        }
+        button{
+            padding: 8px 20px;
+            border-radius: 8px;
+            border: none;
+            color: #000;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            background-color: aqua;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
